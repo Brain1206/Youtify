@@ -1,0 +1,51 @@
+<?php
+header('content-type:text/css');
+echo <<<FINCSS;
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+background:-webkit-linear-gradient( white) ;
+}
+.button{
+	background: -webkit-linear-gradient(green, blue) ;
+	font-size: 20px;
+}
+label{
+	font-size: 15px;
+	font-family: Arial;
+	color:gold;
+}
+a{
+color:gold;
+font-size: 20px;
+}
+a:hover{
+color:orange;
+font-size: 30px;
+}
+a:active{
+color:brown;
+font-size: 20px;
+}
+select{
+	color:blue;
+	font-size: 20px;
+}
+select:hover{
+	color:#990099;
+	font-size: 20px;
+}
+select:active{
+	color:orange;
+	font-size: 20px;
+}
+.one{
+	 font-family: "HALO", Georgia, Serif;
+	 font-size: 25px;
+
+
+}
+FINCSS;
+?>
